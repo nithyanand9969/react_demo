@@ -5,7 +5,7 @@ function App() {
   const [name, setName] = useState("nithanand");
   const onchange = (event) => {
     const newval = event.target.value;
-    setName(newval + "1");
+    setName(newval);
     console.log(setName);
   };
 
